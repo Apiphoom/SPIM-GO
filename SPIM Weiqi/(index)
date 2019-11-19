@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Yunguseng Practice Room</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<!-- added for user login start -->
+<!-- <link rel="stylesheet" type="text/css" href="https://eyd.yunguseng.com/default.css"> -->
+<!-- added for user login end -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+<script type="text/javascript" src="go_interface.js"></script>
+<script type="text/javascript" src="sgf_parser.js"></script>
+<!-- <script> alert('0'); </script> -->
+<script type="text/javascript" src="go_problems.js"></script>
+<!-- <script> alert('1'); </script> -->
+<script type="text/javascript" src="go.js"></script>
+
+</head>
+
+<!-- <body> -->
+
+<!-- added for user login start -->
+<body>
+<a name="top"></a>
+
+  <div id="main" class="hide-right">
+  <div id="columns">
+  <div class="cols-wrapper">
+  <div class="float-wrapper">
+  <div id="col-b" class="sidecol">
+  <div class="box">
+
+
+  </div>
+  </div>
+
+  <div id="col-a">
+  <div class="main-content">
+<!-- added for user login end -->
+
+
+
+
+<div id="div_main" style="width:1300px;float:auto;margin:0 auto;">
+
+	<div id="div_header" style="width:1280px; float:left;clear:left;">
+		<a href="https://www.yunguseng.com" style="float:left;clear:left;"><img src="https://eyd.yunguseng.com/pics/yd_logo.png" width="100" height="100" border="0" hspace="10" vspace="0" alt="" title="" /></a>
+		<div id="div_header_b" style="width:950px; float:left;" class="encapsulated">
+			<p id="header" style="margin:5px; font-size:20px; height:50px; line-height:50px; ">
+			Hi,  mutaku.  Welcome to the Yunguseng practice room!
+		</div>
+		<div id="div_header_b" style="height:60px;line-height:60px;width:129px;float:right;" class="button" onclick="window.location='https://eyd.yunguseng.com/user/logout.php'" >
+			Logout
+		</div>
+	</div>
+
+	<div id="div_message" class="encapsulated" style="width:1245px;float:left;clear:left;"></div>
+
+	<div id="div_select" style="width:1300px;float:left;clear:left;">
+
+		<div id="div_select_lectures" class="lecture_table" style="float:left; width:1010px; line-height: 30px">
+		</div>
+
+		<div id="div_select_buttons" class="encapsulated" style="float:left; width:200px; line-height: 30px; text-align:left;">
+		</div>
+
+	</div>
+
+	<div id="div_play" style="width:1300px;float:left;clear:left;">
+
+		<div id="PbInfos" class="encapsulated" style="float:left; width:300px; line-height: 30px; font-size:14px;">
+		</div>
+
+		<canvas id="goBoard" class="goban" width="600" height="600" style="float:left;">
+		Sorry, your browser does not support the HTML5 canvas tag.
+		</canvas>
+
+		<div id="div_play_buttons">
+			<div id="cancel_move" class="button" onclick="go_back()" style="height:60px;line-height:60px;width:129px;float:left;">
+			Go Back</div>
+			<div id="restart_pb" class="button" onclick="restart_problem()" style="height:60px;line-height:60px;width:129px;float:left;">
+			Restart Problem</div>
+			<div id="help" class="button" onclick="help()" style="height:60px;line-height:60px;width:129px;float:left;">
+			Help !</div>
+			<div id="select_pbs" class="button" onclick="load_pb_sets()" style="height:60px;line-height:60px;width:129px;float:left;">
+			Lecture choice</div>
+			<div id="next_pb" class="button" onclick="new_problem()" style="height:60px;line-height:60px;width:129px;float:left;">
+			Next Problem</div>
+			<div id="about" class="button" onclick="about()" style="height:60px;line-height:60px;width:129px;float:left;">
+			About...</div>
+		</div>
+
+		<div id='div_under_goban' class="encapsulated"  style="float:left; width:293px; margin-bottom:20px;">
+			<div id='ColorInfos' style="clear:both; line-height: 30px"> </div>
+			<div id='instructions' style="clear:both;"> </div>
+		</div>
+
+	</div>
+
+</div>
+<!-- added for user login start -->
+  </div>
+  </div>
+  </div>
+  <div class="clear" id="em"></div>
+  </div>
+  </div>
+  </div>
+<!-- added for user login end -->
+
+</body>
+</html>
+
+
+
+
+
+
